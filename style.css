@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: url(imgs/image/newyork.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+    background-color: rgb(88, 89, 90);
+} 
+h1{
+    align-self: center;
+    margin-left: 30%;
+    font-family: sans-serif;
+}  
+.nav_links{
+    font: bold;
+    display: flex;
+    margin-left: 65%;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;  
+    font-size: larger;
+    font:  sans-serif;
+}
+
+.btn{
+    margin: 0, 200px;
+    padding:0px 8px;
+    background-color: rgb(67, 67, 252);
+    border-radius: 45px;
+}
+.l{
+    display: flex;
+}
+.side{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* width: 10px; */
+    
+    /* width: 10px; */
+}
+.main{
+    /* width: 50px; */
+}
+
+
+.gra img{
+    border: solid;
+    border-radius: 10px;
+}
