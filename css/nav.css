@@ -1,0 +1,16 @@
+.nav-handle{
+    font-family: sans-serif;
+}
+.nav-handle>.nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -2px 2px 5px rgb(20, 19, 19);
+    margin-bottom: 20px;
+}
+
+.nav-handle>nav>.items>*{
+    margin: 0px 15px 0px 15px; 
+    font-weight: bold;
+    text-decoration: none;
+}

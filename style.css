@@ -2,9 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    .main{
+        background: url(imgs/image/newyork.png); 
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: fit-content;
+        background-color: rgb(88, 89, 90);
+    }
 }
 .header{
-    background: url(imgs/image/newyork.png);
+    /* background: url(imgs/image/newyork.png); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,6 +33,7 @@ h1{
     list-style: none;  
     font-size: larger;
     font:  sans-serif;
+    
 }
 
 .btn{
