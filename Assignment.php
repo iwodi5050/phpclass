@@ -53,8 +53,8 @@
                     <option value="final year">final year</option>
              </select>
                     <br>
-
-                     <button type="button" name="submith" id="submith">submith</button> 
+                    <br>
+                     <button name="submith">submith</button> 
 
                     <br>
                     <br>
@@ -77,7 +77,7 @@
         //     print("no way you are not a member");
         // } 
 
-       
+      /*   
        if(isset($_POST["submith"])) { 
          $name = $_POST['name'];
         $secondname= $_POST['secondname'];
@@ -88,9 +88,9 @@
         $level= $_POST['level'];
         
         
-        print "wellcom $name";
-        
-      }    
+       // print "wellcom $name";  
+      }   
+     
       else{
         print ("relog in please");
        }
@@ -112,7 +112,16 @@
       }
       print_info(array('name'=>'clever Techie'));
 
-    
+    */
+
+    if(isset($_POST["submith"])) { 
+      $name = $_POST['name'];
+     $secondname= $_POST['secondname'];
+     $surname= $_POST['surname'];
+     $phonenumber= $_POST['phonenumber'];
+     $dob= $_POST['dob'];
+     $school= $_POST['school'];
+     $level= $_POST['level'];
     ?>
 
 </body>
